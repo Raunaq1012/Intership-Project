@@ -10,21 +10,17 @@
     background: #2997b3;
 }
 nav img {
-    width: 150px;
-    height: 30px;
+    width: 15rem;
+    height: 3.5rem;
+    padding: 0%;
 }
 .nav-item:hover{
     background: rgb(231, 230, 171);
     color: aqua;
 }
 
-
-/* click@career photo and info */
-.main-image {
-    background-image: url("images/Main.jpeg");
-    background-image: linear-gradient(rbg(7,9,30,0.7),rbg(7,9,30,0.7));
-    filter: blur(8px);
-    -webkit-filter: blur(5px);
+  .main-about {
+    background-image: url(images/background1.jpg);
     height: 30rem;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,17 +28,16 @@ nav img {
     position: relative;
   }
   .main-text {
-  color: black;
-  font-weight: bold;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 20px;
-  text-align: center;
-  }
+    color: rgb(32, 206, 26);
+    font-weight: bold;
+    position: relative;
+    top: 2%;
+    left: auto;
+    /* width: 80%; */
+    padding: 20px;
+    text-align: center;
+    }
+
 
 /* Director Visison */
 
@@ -101,8 +96,18 @@ nav img {
     background: #11324D;
     padding: 8%;
 }
-img {
+#carouselExampleFade img {
     width: 50px;
     height: 200px;
     padding: 10%;
 }
+
+@media( max-width : 600px)
+{
+  .main-about {
+    height : 45rem;
+  }
+
+  }
+}
+
