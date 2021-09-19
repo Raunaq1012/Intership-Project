@@ -2,18 +2,22 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Gallery</title>
-    <!--CSS-->
-    <link rel="stylesheet" href="style.css">
-    <!--- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Click@Career/Gallery</title>
+     <!--CSS-->
+     <link rel="stylesheet" href="style.css">
+     <!--- bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <!-- font Awesome -->
+     <script src="https://kit.fontawesome.com/9cefe1a9cb.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-    <section class="header">
+
+  <body class="gallery-body">
+    <!-- <section class="header">
       <nav class="navbar navbar-expand-md navbar-light">
         <div class="container-fluid">
           <a class=" br navbar-brand" href="/">
-            <!-- <img class="logo" src="" alt="" width="30" height="24"> -->
+             <img class="logo" src="" alt="" width="30" height="24"> 
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -44,7 +48,7 @@
         </div>
       </nav>
 
-    </section>
+    </section> -->
     <!-- <div class="gallery">
       <div class="photo">
         <img src="images/Cpp.png" alt="">
@@ -60,7 +64,187 @@
       </div>
 
     </div> -->
-<div class="gallery-container">
+
+    <section class="header">
+      
+        <div class="content">
+          <div class="row header-top">
+            <div class="col-lg-6 col-sm-12 logo">
+              <a href="/"><img src="images/logo.png" alt="logo"></a>
+            </div>
+            <div class="col-lg-6 col-sm-12 top-social">
+              <div class="row">
+                <div class="col-lg-3 col-sm-12 socialrm">
+                  <div class="icon">
+                    <i class="fab fa-whatsapp fa-3x"></i>
+                  </div>
+                  <div class="rightContent">
+                    <h5>Whatsapp</h5>
+                    <h6><a href="https://wa.me/+919999993213" target="new" style="color: white;">+91 99-9999-3213</a></h6>
+                  </div>
+  
+                </div>
+                <div class="col-lg-3 col-sm-12 socialrm">
+                  <div class="icon">
+                    <i class="fas fa-phone fa-3x"></i>
+                  </div>
+                  <div class="rightContent ">
+                    <h5>Call us on</h5>
+                    <h6><a href="tel:7070905090" target="new">01140071972</a></h6>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 socialrm">
+                  <div class="icon">
+                    <i class="fas fa-envelope fa-3x"></i>
+                  </div>
+                  <div class="rightContent ">
+                    <h5>Email us on</h5>
+                    <h6><a href="mailto:info@ducatindia.com" target="new">click@career.com</a></h6>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 social-icon socialrm">
+                 <span><a href=""><i class="fab fa-twitter fa-2x"></i></a></span>
+                  <a href="https://www.facebook.com/varshney.sujeet" target="blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+                  <a href=""><i class="fab fa-instagram-square fa-2x"></i></a>
+                  <a href="https://www.youtube.com/c/sujeetvarshney" target="blank"><i class="fab fa-youtube-square fa-2x"></i></a>
+                </div>
+  
+              </div>
+              
+            </div>
+  
+          </div>
+          <div class="content-navbar">
+  
+          <nav class="navbar navbar-expand-md navbar-light bg-secondary">
+            <div class="container-fluid">
+              <p>MENU<p></p>
+              <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul class="navbar-nav mr-auto" id="main-menu">
+                  <li class="nav-item active">
+                    <a class="nav-link" aria-current="page" href="/"> <b>HOME</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html"><b>ABOUT</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html"><b>COURSES</b></a>
+                  </li>
+  
+                  <li class="nav-item">
+                    <a class="nav-link" href="#"><b>ONLINE REGISTRATION</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html"><b>REVIEWS</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery.html"><b>GALLERY</b></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html"><b>CONTACT</b></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="content-gallery">
+          <div class="gallery-container">
+            <div class="box">
+              <div class="img-box">
+                <img src="images/Cpp.png" alt="">
+              </div>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet,  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="images/Cpp.png" alt="">
+              </div>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet,  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="images/java.jpg" alt="">
+              </div>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet,  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="images/python.png" alt="">
+              </div>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet,  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="images/MobileDevelopment.jpg" alt="">
+              </div>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet,  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="images/Machine learning.jpeg" alt="">
+              </div>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet,  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="images/Cpp.png" alt="">
+              </div>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet,  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="images/Cpp.png" alt="">
+              </div>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet,  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="img-box">
+                <img src="images/java.jpg" alt="">
+              </div>
+              <div class="content">
+                <p>Lorem ipsum dolor sit amet,  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur </p>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+        <footer id="footer">
+          <a href=""><i class="fab fa-twitter fa-2x"></i></a>
+          <a href="https://www.facebook.com/varshney.sujeet" target="blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href=""><i class="fab fa-instagram-square fa-2x"></i></a>
+          <a href="https://www.youtube.com/c/sujeetvarshney" target="blank"><i class="fab fa-youtube-square fa-2x"></i></a>
+          <p>© Copyright </p>
+          </footer>
+
+      
+    </div>
+  </section>  
+
+
+
+
+<!-- <div class="gallery-container">
   <div class="box">
     <div class="img-box">
       <img src="images/Cpp.png" alt="">
@@ -135,7 +319,9 @@
   </div>
 
 
-</div>
+</div> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 
-  </body>
+</body>
 </html>

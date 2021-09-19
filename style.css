@@ -1,44 +1,144 @@
-/* body */
+/******************* body *******************/
 *{
     margin: 0;
     padding: 0;
 }
-
-/* Navbar */
-.header {
-    width: 100;
-    background: #2997b3;
-}
-nav img {
-    width: 10rem;
-    height: 2.5rem;
-    padding: 0%;
-}
-.nav-item:hover{
-    background: rgb(231, 230, 171);
-}
-
-  .main-about {
-    background-image: url(images/background1.jpg);
-    height: 30rem;
+/* ********************************   Header   ************************** */
+.header-img {
+    background-image: url(images/mainimg22.png);
+    height: 43rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
-  .main-text {
-    color: rgb(32, 206, 26);
-    font-weight: bold;
-    position: relative;
-    top: 2%;
-    left: auto;
-    /* width: 80%; */
-    padding: 20px;
-    text-align: center;
-    }
+}
+.content{
+  width: 85%;
+  text-align: center;
+  margin: auto;
+}
+.rightContent ,.icon{
+  color: white;
+}
+a:link {
+  color: white;
+}
+.col-lg-6.logo{
+  width: 25%;
+}
+.col-lg-6.top-social{
+  width: 75%;
+}
+
+.col-lg-6.logo img{
+  height: 5rem;
+}
+.col-lg-3.col-sm-12{
+  padding-top: 1rem;
+}
+.col-lg-3.col-sm-12 .icon{
+  width: 20%;
+  float: left;
+  margin-right: 1rem;
+  
+}
+.col-lg-3.col-sm-12 .rightcontent{
+  width: 80%;
+  
+}
+.col-lg-3.col-sm-12 .rightcontent ,h5,h6{
+  text-align: left;
+}
+.col-lg-3.col-sm-12.social-icon{
+  padding-top: 1.5rem;
+}
+/* *******************************  Navbar   *************************** */
+.content-navbar{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+#main-menu li a{
+  color: white;
+}
+.nav-item:hover{
+  background: #f58634;
+}
+.navbar-nav li{
+  padding-left:30px;
+  padding-right:30px;
+}
+.container-fluid p{
+  display: none;
+}
+/* ****************Main about Quick Form*************** */
+
+.content.main-about {
+  margin-top: 5%;
+}
+.container.quickform{
+  color: white;
+}
+.quickform-heading{
+  
+  text-align: left;
+  margin-top: 5%;
+}
+.quickform-heading h3{
+  line-height: 5%;
+  margin-bottom: 7%;
+  margin-top: 1%;
+}
+.quickform-heading .lastele{
+  margin-bottom: 5%;
+}
+.quickform input[type="text"] {
+  height: 40px;
+  border: 1px solid black;
+  font-weight: 200;
+  width: 305px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.quickform input[type="tel"] {
+  height: 40px;
+  border: 1px solid black;
+  font-weight: 200;
+  width: 305px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.quickForm select{
+  height: 40px;
+  border: 1px solid black;
+  font-weight: 200;
+  width: 305px;
+  margin-bottom: 10px;
+}
+.quickform input[type="checkbox"] {
+  float: left;
+  margin-top: 2.5%;
+} 
+.quickForm label{
+  float: right;
+  width: 95%;
+}
+.checkbox:checked + .formRight{
+  color: green;
+}
+.buttonStyleOrange{
+  background-color: #f58634;
+  margin: 3% 0 5% 0;
+  padding: 7px 25px;
+  color: white;
+  border: 2px solid #f58634;
+}
+.buttonStyleOrange:hover{
+  background-color:#051424;
+  border: 2px solid #f58634;
+}
 
 
-/* Director Visison */
+/************************** Director Visison******************** */
 
 .about-Developer{
   padding: 3%;
@@ -87,7 +187,7 @@ nav img {
 
 
 
-/* courses */
+/* **********************************courses***********************8 */
 #carouselExampleFade{
     background: #11324D;
     padding: 8%;
@@ -98,7 +198,7 @@ nav img {
     padding: 10%;
 }
 
-/* Reviews */
+/* **********************************Reviews************************* */
 /* .carousel-item{
 
   text-align: center;
@@ -136,7 +236,7 @@ nav img {
 
 }
 
-/* Footer */
+/* ***************************   Footer    ******************************** */
 #footer {
   text-align: center;
   padding: 3% 15%;
@@ -158,24 +258,53 @@ nav img {
   color: red;
 }
 
-@media( max-width : 600px)
-{
-  .main-about {
-    height : 45rem;
-  }
-
-  }
+/* **********************************   About  **************************************  */
+.about-content-heading h2{
+  background-color: white;
+  width: 20%;
+  display: inline;
+  padding: 0 0.5%;
+  border-radius: 6rem;
+}
+.about-content-heading{
+  margin-top: 1.5%;
+}
+.about-content{
+  background-color: white;
+  margin-left: 16px;
+  width: 97.55%;
+  text-align: left;
+  padding: 1%
+}
+.about-content span{
+  color: #f58634;
 }
 
-/* ********   Contact us   *********** */
+
+
+
+/* ************************************   Contact us   ******************************** */
+.contact-body{
+  background-image: url(images/mainimg22.png);
+  height: 49rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.content-contact{
+  width: 98%;
+  margin-left: 15px;
+}
 .contact-form{
   /* background-color: rgb(255, 255, 255); */
   margin-top: 10%;
   margin-bottom: 5%;
-  width: 70%;
+  /* width: 75%; */
 } 
 div.container.contact-form {
   background-color: #fff;
+  margin-top: 3%;
 }
 
 .contact-form .form-control{
@@ -231,6 +360,7 @@ div.container.contact-form {
 }
 .row.contact-info {
   margin-top: 1rem;
+  text-align: left;
 }
 .col-md-6.add-icon {
   width: 20%;
@@ -245,7 +375,7 @@ div.container.contact-form {
   padding: 0;
 }
 
-/* Gallery */
+/**************************** Gallery ******************************* */
 
 /* .gallery{
   text-align: center;
@@ -255,11 +385,18 @@ div.container.contact-form {
   height:  30rem;
   width:25rem;
 } */
-
+.gallery-body{
+  background-image: url(images/mainimg22.png);
+  height: 49rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
 .gallery-container{
   width:100%;
-  height: 1000px;
+  /* height: 1000px; */
   /* background-color: yellow; */
   display: flex;
   flex-wrap: wrap;
@@ -267,8 +404,8 @@ div.container.contact-form {
 }
 
 .gallery-container .box{
-  width: 400px;
-  height: 400px;
+  width: 330px;
+  height: 300px;
   /* background-color: red; */
   position: relative;
   margin: 3rem;
@@ -294,7 +431,7 @@ div.container.contact-form {
   top:40px;
   left: 40px;
   right:10px;
-  down:10px;
+  /* down:10px; */
   background-color: rgba(0,0,0,.8);
   width: 80%;
   height: 80%;
@@ -311,3 +448,19 @@ div.container.contact-form {
 }
 
 
+@media( max-width : 600px)
+{
+  .main-about {
+    height : 45rem;
+  }
+  .content{
+    width: 100%;
+  }
+  .socialrm{
+    display: none;
+  }
+  .container-fluid p{
+    display: block;
+  }
+
+  }
