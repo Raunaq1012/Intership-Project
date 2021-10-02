@@ -85,15 +85,45 @@ nav img {
       padding-top: 5%;
   }
 
+/* imporant courses */
+.Important-course{
+  height:100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #79B4B7;
+  flex-wrap: wrap;
 
+}
+
+.block{
+  height: 40rem;
+  width:  30rem;
+  background-color: #D4ECDD;
+  margin :auto;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+
+.imp-img-box img {
+  margin-top:10%;
+  height: 10rem;
+  width: 10rem;
+  position: relative;
+}
+
+.
 
 /* courses */
 #carouselExampleFade{
-    background: #11324D;
+    background-color: #11324D;
     padding: 8%;
 }
 #carouselExampleFade img {
-    width: 50px;
+    width: 40px;
     height: 200px;
     padding: 10%;
 }
@@ -106,6 +136,8 @@ nav img {
 } */
 #Review {
   margin-top: 2%;
+  background-color: #79B4B7
+  
   /* padding: 1%; */
 }
 .student-img {
@@ -119,8 +151,8 @@ nav img {
 
 .student-img img{
   height :10rem;
-  width :10rem; 
-  
+  width :10rem;
+
   position: relative;
   left : 7rem;
 }
@@ -146,7 +178,7 @@ nav img {
   margin-right: 1rem;
   margin-bottom: 1rem;
   padding-left: 0.4rem;
-  
+
 }
 .fab.fa-instagram-square {
   color: #bd36cf;
@@ -164,7 +196,6 @@ nav img {
     height : 45rem;
   }
 
-  }
 }
 
 /* ********   Contact us   *********** */
@@ -173,7 +204,7 @@ nav img {
   margin-top: 10%;
   margin-bottom: 5%;
   width: 70%;
-} 
+}
 div.container.contact-form {
   background-color: #fff;
 }
@@ -310,4 +341,48 @@ div.container.contact-form {
   color: white;
 }
 
+/* java Html */
+.course-navbar{
+  background-color: #316B83;
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 2.4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 
+
+}
+
+.Course-Description{
+  padding: 2.4rem;
+
+}
+.course-details{
+  max-width: 100%;
+  max-height: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  padding: 2.4rem;
+
+}
+
+.course-details-content{
+  height: 20rem;
+  width:30rem;
+  background-color: yellow;
+  text-align: left;
+}
+
+.course-details-content.color1{
+  background-color: #6D8299;
+}
+.course-details-content.color2{
+  background-color: #8CA1A5;
+}
+.course-details-content h3 {
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+}
+.course-details-content ul {
+  margin-left: 2.5rem;
+}
