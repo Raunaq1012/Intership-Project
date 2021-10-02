@@ -185,6 +185,100 @@ a:link {
       padding-top: 5%;
   }
 
+/*************************** imporant courses **************************/
+.Important-course{
+  height:100%;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #79B4B7;
+  flex-wrap: wrap;
+
+}
+
+.block{
+  height: 40rem;
+  width:  30rem;
+  background-color: #D4ECDD;
+  margin :auto;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+
+.imp-img-box img {
+  margin-top:10%;
+  height: 10rem;
+  width: 10rem;
+  position: relative;
+}
+
+/********************** Cpp, java, DS, Python, Android, FullStack **********************/
+.course-navbar{
+  background-color: #316B83;
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 2.4rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+
+
+}
+
+.Course-Description{
+  padding: 2.4rem;
+
+}
+.course-details{
+  max-width: 100%;
+  max-height: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+
+}
+
+.course-details-content{
+  height: 20rem;
+  width:25rem;
+  background-color: yellow;
+  text-align: left;
+}
+
+.course-details-content.color1{
+  background-color: #6D8299;
+}
+.course-details-content.color2{
+  background-color: #8CA1A5;
+}
+.course-details-content h3 {
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+}
+.course-details-content ul {
+  margin-left: 2.5rem;
+}
+
+/* ************************************ Cpp Course ***************************/
+.cpp-content-heading h2{
+  background-color: white;
+  width: 20%;
+  display: inline;
+  padding: 0 0.5%;
+  border-radius: 6rem;
+}
+.cpp-content-heading{
+  margin-top: 1.5%;
+}
+.cpp-content{
+  background-color: white;
+  margin-left: 16px;
+  width: 97.55%;
+  text-align: left;
+  padding: 1%
+}
 
 
 /* **********************************courses***********************8 */
@@ -256,6 +350,9 @@ a:link {
 }
 .fab.fa-youtube-square {
   color: red;
+}
+.fab.fa-facebook-square{
+  color: rgb(23, 101, 190);
 }
 
 /* **********************************   About  **************************************  */
@@ -445,6 +542,32 @@ div.container.contact-form {
 .gallery-container .box .content p{
   margin-top: 30%;
   color: white;
+}
+/* *************************************   Online Registration  ************************** */
+
+.OnlineRegis-body{
+  background-image: url(images/mainimg22.png);
+  height: 49rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.regis-content{
+  background-color: white;
+  margin-left: 16px;
+  width: 97.55%;
+  text-align: center;
+  padding: 1%
+
+}
+.form input[type="text"] {
+  height: 40px;
+  border: 1px solid black;
+  font-weight: 200;
+  width: 305px;
+  margin-bottom: 10px;
+  padding: 10px;
 }
 
 
