@@ -40,11 +40,11 @@ a:link {
   width: 20%;
   float: left;
   margin-right: 1rem;
-  
+
 }
 .col-lg-3.col-sm-12 .rightcontent{
   width: 80%;
-  
+
 }
 .col-lg-3.col-sm-12 .rightcontent ,h5,h6{
   text-align: left;
@@ -70,6 +70,31 @@ a:link {
 .container-fluid p{
   display: none;
 }
+/****************** Main about Content *******************/
+.container.main-content{
+  width: 60%;
+  float: left;
+  padding-top: 10px;
+}
+.transparentButton{
+  border: 2px solid white;
+  padding: 10px 20px;
+  display: inline-block;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 30px;
+  background-color: transparent;
+}
+
+.transparentButton:hover{
+  background-color: #f58634;
+  border: 2px solid #f58634;
+}
+
+.container.main-content button{
+  margin-left: 20px;
+  margin-top: 25px;
+}
 /* ****************Main about Quick Form*************** */
 
 .content.main-about {
@@ -79,7 +104,7 @@ a:link {
   color: white;
 }
 .quickform-heading{
-  
+
   text-align: left;
   margin-top: 5%;
 }
@@ -117,7 +142,7 @@ a:link {
 .quickform input[type="checkbox"] {
   float: left;
   margin-top: 2.5%;
-} 
+}
 .quickForm label{
   float: right;
   width: 95%;
@@ -142,13 +167,18 @@ a:link {
 
 .about-Developer{
   padding: 3%;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
-
+.about-Developer h3{
+  font-size: 3rem;
+  margin-left: 65px;
+  color: #f58634;
+}
 .sir-vision img {
   height :10rem;
   width :13rem;
   padding: 0;
+  border-radius: 50%;
 }
 .sir-vision {
      margin: 1rem;
@@ -158,12 +188,13 @@ a:link {
 .sir-img {
 
    float: left;
+   
 }
  .sir-content{
      width: 80%;
      height: 10rem;
      float: right;
-     padding-top: 5%;
+     padding-top: 2%;
  }
 
 .mam-vision img {
@@ -171,6 +202,7 @@ a:link {
   width: 20%;
   height: 10rem;
   float: right;
+  border-radius: 50%;
 }
  .mam-vision {
       margin: 1rem;
@@ -182,10 +214,28 @@ a:link {
       width: 80%;
       height: 10rem;
       float: left;
-      padding-top: 5%;
+      padding-top: 2%;
+  }
+  .sir-name{
+    margin-left: 90px;
+
+  }
+  .mam-name{
+    margin-left: 1150px;
   }
 
 /*************************** imporant courses **************************/
+.important-course-head{
+  background-image: url(images/mainimg22.png);
+  text-align: center;
+  padding: 5px;
+}
+.important-course-head h3{
+  font-size: 3rem;
+  margin-left: 65px;
+  color: white;
+}
+
 .Important-course{
   height:100%;
   max-width: 100%;
@@ -194,16 +244,18 @@ a:link {
   padding: 10px;
   background-color: #79B4B7;
   flex-wrap: wrap;
+  background-image: url(images/mainimg22.png);
 
 }
 
 .block{
-  height: 40rem;
+  height: 30rem;
   width:  30rem;
   background-color: #D4ECDD;
   margin :auto;
   text-align: center;
   margin-bottom: 10px;
+  background-image: url(images/mainimg33.png);
 
 }
 
@@ -217,7 +269,10 @@ a:link {
 
 /********************** Cpp, java, DS, Python, Android, FullStack **********************/
 .course-navbar{
-  background-color: #316B83;
+  /* background-color: #316B83; */
+
+  background-image: url(images/mainimg22.png);
+
   max-width: 100%;
   max-height: 100%;
   padding-left: 2.4rem;
@@ -283,14 +338,22 @@ a:link {
 
 /* **********************************courses***********************8 */
 #carouselExampleFade{
-    background: #11324D;
-    padding: 8%;
+    background-image: url(images/mainimg22.png);
+    padding: 2% 8%;
+    height: 25rem;
+   
+}
+#carouselExampleFade h3{
+  font-size: 3rem;
+  text-align: center;
+  color: white;
 }
 #carouselExampleFade img {
-    width: 50px;
-    height: 200px;
+    height: 250px;
     padding: 10%;
+    margin-top: 20px;
 }
+
 
 /* **********************************Reviews************************* */
 /* .carousel-item{
@@ -298,6 +361,15 @@ a:link {
   text-align: center;
 
 } */
+.review-head h3{
+  font-size: 3rem;
+  text-align: center;
+  color: #f58634;
+  
+}
+.carousel-control-prev-icon{
+  color: #000000;
+}
 #Review {
   margin-top: 2%;
   /* padding: 1%; */
@@ -313,8 +385,9 @@ a:link {
 
 .student-img img{
   height :10rem;
-  width :10rem; 
-  
+  width :10rem;
+  border-radius: 50%;
+
   position: relative;
   left : 7rem;
 }
@@ -326,8 +399,10 @@ a:link {
   text-align: center;
   padding: 2%;
   position: relative;
-  right : 4rem;
-
+  right : 1rem;
+}
+#Review .carousel-item{
+  padding: 2%;
 }
 
 /* ***************************   Footer    ******************************** */
@@ -340,7 +415,7 @@ a:link {
   margin-right: 1rem;
   margin-bottom: 1rem;
   padding-left: 0.4rem;
-  
+
 }
 .fab.fa-instagram-square {
   color: #bd36cf;
@@ -398,7 +473,7 @@ a:link {
   margin-top: 10%;
   margin-bottom: 5%;
   /* width: 75%; */
-} 
+}
 div.container.contact-form {
   background-color: #fff;
   margin-top: 3%;

@@ -7,67 +7,14 @@
     <title>Click@Career</title>
     <!--CSS-->
     <link rel="stylesheet" href="style.css">
-    
+
     <!--- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <!-- font Awesome -->
     <script src="https://kit.fontawesome.com/9cefe1a9cb.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <!--
-    <section class="header">
-        <nav class="navbar navbar-expand-md navbar-light bg-white">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <p>MENU<p>
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-                <ul class="navbar-nav mr-auto mb-2 mb-lg-0 ">
-                  <li class="nav-item active">
-                    <a class="nav-link" aria-current="page" href="index.html"> <b>HOME</b></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="updates.html"><b>ABOUT</b></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#carouselExampleFade"><b>COURSES</b></a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#Review"><b>ONLINE REGISTRATION</b></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html"><b>REVIEWS</b></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="gallery.html"><b>GALLERY</b></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="gallery.html"><b>CONTACT</b></a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-
-    </section>
-
-    <!-- About -->
-    <!--
-    <section class="main-about">
-      <div class="main-about">
-        <div class="main-text">
-          <h1 style="font-size:5rem">Click @ Career</h1> <br> <br><br> <br>
-          <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-           dolor in reprehen</h5>
-         </div>
-
-      </div>
-
-    </section>
-  -->
+  
   <section class="header">
     <div class="header-img">
       <div class="content">
@@ -113,7 +60,7 @@
               </div>
 
             </div>
-            
+
           </div>
 
         </div>
@@ -123,7 +70,7 @@
           <div class="container-fluid">
             <p>MENU<p></p>
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            
+
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent" >
@@ -138,9 +85,9 @@
                   <a class="nav-link" href="#importantCourses"><b>COURSES</b></a>
                 </li>
 
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a class="nav-link" href="onlineRegis.html"><b>ONLINE REGISTRATION</b></a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <a class="nav-link" href="#Review"><b>REVIEWS</b></a>
                 </li>
@@ -156,8 +103,19 @@
         </nav>
       </div>
       <div class="content main-about">
-          <div class="container" style="width: 60%; float: left; color: white;">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro eius quisquam necessitatibus sunt incidunt fugiat deserunt quasi possimus iure autem pariatur architecto aliquam aliquid et, rerum nesciunt error quas magnam!
+          <div class="container main-content">
+              <button type="button" class="transparentButton">Web Technology</button>
+              <button type="button" class="transparentButton">Database</button>
+              <button type="button" class="transparentButton">Networking</button>
+              <button type="button" class="transparentButton">ANDROID APP DEVELOPMENT</button>
+              <button type="button" class="transparentButton">Courses For College Students</button>
+              <button type="button" class="transparentButton">Big Data</button>
+              <button type="button" class="transparentButton">Cloud Computing</button>
+              <button type="button" class="transparentButton">Java</button>
+              <button type="button" class="transparentButton">Python APP DEVELOPMENT</button>
+              <button type="button" class="transparentButton">c/c++</button>
+              <button type="button" class="transparentButton">6 Months industrial training </button>
+              <button type="button" class="transparentButton">6/8 Months Project Training</button>
 
           </div>
           <div class="container quickform" style="width: 30%; float:right; height: 33.3%; background-color: #051424;">
@@ -168,9 +126,9 @@
             </div>
             <div class="quickForm">
               <form action="/", method="POST" accept-charset="UTF-8" id="home-enquiry">
-                <input type="text" name="name" placeholder="Your Name" required >   <br>     
+                <input type="text" name="name" placeholder="Your Name" required >   <br>
                 <input type="tel" name="contactNumber" placeholder="Contact Number" required  pattern="\d{10}"> <br>
-                <select name="course" required> 
+                <select name="course" required>
                   <option value="">Technology Looking for!</option>
                   <option value="Python">Python</option>
                   <option value="Datascience">Datascience</option>
@@ -189,9 +147,9 @@
                   <option value="React">React</option>
                   <option value="Other">Other</option>
                 </select> <br>
-                <input type="checkbox" id="ossm1" name="ossm" required class="checkbox formLeft"> 
+                <input type="checkbox" id="ossm1" name="ossm" required class="checkbox formLeft">
                 <label for="ossm" class="formRight">I understand that your personal data will be used in accordance with the <a href="https://www.ducatindia.com/privacy-policy" style="color: #f58634;">Privacy Policy</a> here *</label>
-                <input type="button" value="SUBMIT" onclick="sendquickmail();" class="buttonStyleOrange "> 
+                <input type="button" value="SUBMIT" onclick="sendquickmail();" class="buttonStyleOrange ">
               </form>
             </div>
           </div>
@@ -202,46 +160,43 @@
 
   </section>
 
-  
+
 
 
     <section class="about-Developer">
+      <h3>Our Instructors</h3>
       <div class="container sir-vision">
-        <div class="sir-img" ><img  src="images/java.jpg" alt="photo"></div>
-        <div class="sir-content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore aut ullam
-          voluptate possimus eveniet tenetur error minus! Mollitia dolorum enim asperiores tempore distinctio
-          necessitatibus, dolore natus omnis! Aperiam, nobis error.</div>
-
+        <div class="sir-img" ><img  src="images/sir.jpeg" alt="photo">
+          
+        </div>
+        <div class="sir-content"> He is an IIT-Delhi graduate, is an ace programmer, technocrat, an entrepreneurial doyen and a mathematician.  Having seen both the industries from up close, he could identify a key gap between college education and industry needs and has now set out to carve the path that will turn even ordinary students into industry-ready coders.</div>
       </div>
+      <span class="sir-name"><strong>Sujeet Varshney(Founder)</strong></span>
       <div class="container mam-vision">
-        <div class="mam-content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore aut
-          ullam voluptate possimus eveniet tenetur error minus! Mollitia dolorum enim asperiores tempore distinctio
-           necessitatibus, dolore natus omnis! Aperiam, nobis error.</div>
-        <div class="mam-image" ><img src="images/java.jpg" alt="photo"></div>
-
-
+        <div class="mam-content"> She is a versatile coder and has an innate understanding of the concepts which makes her way of teaching almost like learning through osmosis. She is a competative programmer and a front end Web developer. Apart from having an excellent academic record, with her sense of innovation, she has contributed in creating great teaching content. Known for her euphonious voice, warmhearted nature and coding skills she blends proficiently as a great mentor.</div>
+        <div class="mam-image" ><img src="images/mam.jpeg" alt="photo"></div>
       </div>
+      <span class="mam-name"><strong>Vidushi Varshney(Manager)</strong></span>
 
     </section>
 
     <!-- Important Courses -->
     <section class="important-courses" id="importantCourses">
+      <div class="important-course-head">
+        <h3>Our Top Courses</h3>
       <div class="Important-course">
-
-
-
         <div class="block">
           <div class="imp-img-box">
             <img src="images/Cpp.png" alt="">
           </div>
-  
+
           <h2>CPP COURSE</h2>
          <p>Learn Data structures and Algorithms right from the basics and become an accomplished programmer using C++, one of the most popular programming languages in
            the world and brighten your chances of making it to the Top Tech organisations as an Intern or SDE.</p>
            <form method="get" action="cpp.html">
                  <button type="submit" class="btn btn-primary mb-10 ">View Course</button>
           </form>
-  
+
         </div>
         <div class="block">
           <div class="imp-img-box">
@@ -256,7 +211,7 @@
         </div>
         <div class="block">
           <div class="imp-img-box">
-            <img src="images/Machine learning.jpeg" alt="">
+            <img src="images/data_science.jfif" alt="">
           </div>
           <h2>DATA SCIENCE COURSE</h2>
           <p>Learn Data structures and Algorithms right from the basics and become an accomplished programmer using C++, one of the most popular programming languages in
@@ -278,7 +233,7 @@
         </div>
         <div class="block">
           <div class="imp-img-box">
-            <img src="images/Machine learning.jpeg" alt="">
+            <img src="images/android_app.jfif" alt="">
           </div>
           <h2>ANDROID APP DEVELOPMENT</h2>
           <p>Learn Data structures and Algorithms right from the basics and become an accomplished programmer using C++, one of the most popular programming languages in
@@ -289,7 +244,7 @@
         </div>
         <div class="block">
           <div class="imp-img-box">
-            <img src="images/Machine learning.jpeg" alt="">
+            <img src="images/full_stack.png" alt="">
           </div>
           <h2>FULL STACK DEVELOPMENT</h2>
           <p>Learn Data structures and Algorithms right from the basics and become an accomplished programmer using C++, one of the most popular programming languages in
@@ -298,7 +253,8 @@
                  <button type="submit" class="btn btn-primary mb-10 ">View Course</button>
           </form>
         </div>
-  
+
+      </div>
       </div>
 
     </section>
@@ -306,17 +262,18 @@
     <!-- courses -->
 
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel" data-interval="500" data-pause="hover">
+      <h3>Our Other Courses</h3>
         <div  class="carousel-inner">
           <div class="carousel-item active">
               <div class="row">
                   <div class="col-md-3">
-                    <img src="images/Cpp.png" class="d-block w-100" class="simg" alt="...">
+                    <img src="images/python1.png" class="d-block w-100" class="simg" alt="...">
                   </div>
                   <div class="col-md-3">
-                    <img src="images/Data Structure.jpg" class="d-block w-100" class="simg" alt="...">
+                    <img src="images/DS.jfif" class="d-block w-100" class="simg" alt="...">
                   </div>
                   <div class="col-md-3">
-                    <img src="images/java.jpg" class="d-block w-100" class="simg" alt="...">
+                    <img src="images/deepLearning.jfif" class="d-block w-100" class="simg" alt="...">
                   </div>
                   <div class="col-md-3">
                     <img src="images/Machine learning.jpeg" class="d-block w-100" alt="...">
@@ -325,14 +282,33 @@
           </div>
           <div class="carousel-item">
             <div class="row">
-                <div class="col-md-4">
-                  <img src="images/Machine learning.jpeg" class="d-block w-100" alt="...">
+                <div class="col-md-3">
+                  <img src="images/django.png" class="d-block w-100" alt="...">
                 </div>
-                <div class="col-md-4">
-                  <img src="images/MobileDevelopment.jpg" class="d-block w-100" alt="...">
+                <div class="col-md-3">
+                  <img src="images/hibernate.png" class="d-block w-100" alt="...">
                 </div>
-                <div class="col-md-4">
-                  <img src="images/python.png" class="d-block w-100" alt="...">
+                <div class="col-md-3">
+                  <img src="images/htmlCssJS.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-md-3">
+                  <img src="images/nodejs.jfif" class="d-block w-100" alt="...">
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+                <div class="col-md-3">
+                  <img src="images/c_c++.jfif" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-md-3">
+                  <img src="images/DSA.jfif" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-md-3">
+                  <img src="images/java1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="col-md-3">
+                  <img src="images/excel.jfif" class="d-block w-100" alt="...">
                 </div>
             </div>
           </div>
@@ -349,6 +325,10 @@
 
       <!-- Review -->
       <section id="Review">
+        <div class="review-head">
+        <h3>Our student's reviews about <br>
+          our courses and faculty members.</h3>
+          </div>
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -357,29 +337,31 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="student-img"><img src="images/Cpp.png" class="d-block" alt="..."></div>
+            <div class="student-img"><img src="images/review photo3.jpg" class="d-block" alt="..."></div>
             <div class="student-review">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.</p>
+              <p>Click@career was an amazing experience for me. I belong to the electronics department
+                 and had a little experience in coding but I think it has helped me think things through
+                 in a much more analytical manner. Coding is important no matter which branch you are in.
+                  It gives you a better understanding about how to approach a problem.</p>
             </div>
-    
+
           </div>
           <div class="carousel-item">
-            <div class="student-img"><img src="images/java.jpg" class="d-block " alt="..."></div>
+            <div class="student-img"><img src="images/review photo1.jpg" class="d-block " alt="..."></div>
             <div class="student-review">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              <p>It was an amazing experience! i got no words to explain the emotions of satisfaction,
+                joy and happiness i achieved after completing this course. sir is such an amazing person,
+                and i am completely positive that he was one of the best teacher who ever taught me.
+                 A young man with complete knowledge of his subject, along with a great experience in both
+                 the job line and teaching.
               </p>
             </div>
           </div>
           <div class="carousel-item">
-    
-            <div class="student-img"><img src="images/Cpp.png" class="d-block " alt="..."></div>
+
+            <div class="student-img"><img src="images/review photo2.jpg" class="d-block " alt="..."></div>
             <div class="student-review">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <p>If you want to become a brilliant programmer, and are willing to put in the hours and dedicate yourself to acquiring great skills, then there is no better place for you than Coding Blocks. The teaching assistants, Naman and Athar, were also brilliant and very helpful, who ensured we never felt like any problem was too hard.</p>
             </div>
           </div>
         </div>
@@ -406,7 +388,7 @@
 
   </footer>
 
-      
+
 <!-- jquery -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- SMTPJS -->
@@ -417,7 +399,7 @@
 
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
-      
+
 </body>
 
 <script>
@@ -425,9 +407,9 @@
     var name = $(".name").val;
     var contactNumber = $(".contactNumber").val;
     var course = $("course").val;
-    
+
     var body = 'Name : ' +name+'<br>ContactNumber : ' +contactNumber+ '<br>Course : ' +course;
-    
+
     Email.send({
         Host : "smtp.gmail.com",
         Username : "1803010171@ipec.org.in",
